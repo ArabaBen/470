@@ -25,7 +25,7 @@ a:hover{
 	color: #DA7C4E;
 }
 
-h2, h3, h4, h5{
+h2, h3, h4, h5, h6{
 	font-family: 'Inria Sans';
 }
 
@@ -94,10 +94,10 @@ p a{
 #article{
 	position: relative;
 	float: right;
-	width: 60%;
+	width: 55%;
 	font-size: 16px;
 	margin-top: 122px;
-	padding-right: 0;
+	padding-right: 15px;
 }
 
 
@@ -121,12 +121,86 @@ footer hr{
 }
 */
 
+/*HOME.HTML SPECIFIC CSS*/
 .container{
 	margin-top: 34px;
 }
 .card img:hover{
 	color: azure;
 }
+
+#row3 , i{
+	text-decoration: none;
+	color: #DA7C4E;
+}
+.row3 p{
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 15px;
+}
+
+/* ABOUT.HTML SPECIFIC*/
+.content{
+	padding: 24px;
+}
+.content p{
+	padding-bottom: 15px;
+}
+
+/*MOTHERHOOD.HTML*/
+
+.zigzag{
+}
+.content2{
+	margin-top: 120px;
+	align-content: center;
+	padding: 34px;
+
+	
+}
+.content2 img{
+	width: 100%;
+	height: auto;
+}
+
+.content2 p{
+	padding: 12px;
+}
+/*
+
+#challenges img{
+	width: 35%;
+	float: left;
+}
+#challenges p{
+	width: 63%;
+	float: right;
+}
+
+
+#paternity img{
+	width: 35%;
+	float: right;
+}
+#paternity p{
+	width: 63%;
+	float: left;
+
+}
+
+#asking img{
+	width: 35%;
+	float: left;
+	
+}
+#asking p{
+	width: 63%;
+	float: right;
+	
+}
+*/
+
 
 
 
