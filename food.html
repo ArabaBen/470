@@ -1,178 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> food</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-	  
-	  <style>
-/*
-		.container{
-			width: 100%;
-			padding-top: 20px;
-			margin-top: 150px;
-			height: 600px;
-			}
-		.sidebar{
-			float: left;
-			text-align: left;
-			width: 0%;
-			
-			}
-		.article{
-			float: right;
-			width: 50%;
-			text-align: right;
-			}
+<html>
+	<head>
+		<title>food</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="style.css">
 		
-*/
-		  h4{
-			  text-align: center;
-		  }
-		  p{ text-align: left;}
-		  img{
-			  width: 250px;
-			  height: 200px;
-			  padding-bottom: 45px;
-		  }
-			.grid-container {
-			padding-top: 20px;
-			margin-top: 150px;
-			display: grid;
-			grid-template-columns: 20% 20% 20% 20% 20%;
-			gap: 5px;
-			padding: 10px;
+<!-- W3 STYLESHEET-->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+		
+		<style>
+			h1{
+				font-family: 'Inspiration', cursive;
+				font-style: normal;
+				text-align: left;
+				float: left;
+				font-weight: 400;
+				font-size: 62px;
+				line-height: 24px;
+				padding-left: 80px;
 			}
-
-			.grid-container > div {
-			background-color: rgba(255, 255, 255, 0.8);
-			text-align: center;
-			padding: 16px 0;
-			font-size: 30px;
+			h4{
+				text-align: center;
+				font-weight: bold;
 			}
-
-			.item1 {
-			grid-column: 6 / 3;
+			p{ 
+				text-align: left;
+				width: 100%;
+			  }
+			#heading{
+				padding: 2px;
+				padding-bottom: 20px;
+				margin-bottom: 150px;
 			}
-			.vl {
-			border-left: .02px solid black;
-			height: 700px;
-			margin-left: 34%;
-			position: absolute;
-
+			.vl{
+				border-left: .02px solid black;
+				height: 90%;
+				margin-left: 3%;
+				position: absolute;
 			}
-		  .item1 > p{
-			  text-align: center;
-		  }
-		  a{
-			  color: #808860;
-		  }
-	  
-	  </style>
-  </head>
-  
-   <body>
-	    <div id="heading">
-		  <h1>pedigree<hr></h1>
+			
+			a{
+			color: #808860;
+		}
+			@media only screen and (max-width: 450px) {
+			  body {
+				text-align: center;
+			  }
+				.vl{
+					display: none;
+				}
+				#w3-blue{
+					width: 0px;
+					
+				}
+				#w3-green{
+					width: 100%;
+				}
+				
+			}
+			@media only screen and (max-width: 700px) {
+			  body {
+				text-align: center;
+			  }
+				.vl{
+					display: none;
+				}
+				#w3-blue{
+					width: 0px;
+					
+				}
+				#w3-green, #w3-red, #w3-purple, #heading{
+					width: 100%;
+				}
+				#w3-green{
+					width: 100%;
+				}
+				#heading h1, h3{
+					padding: 15px;
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="heading">
+		  <a href="index.html"><h1>pedigree
+			  <hr style="border: .02px solid #000000;"></h1></a><a href="index.html"></a>
 		   <h3>Resources</h3>
 	 	</div>
-	   
-	   
-<!--	   no bootstrap used in this sheet. basic css container grid and creating equaly divieded colums to divide webpage  a-->
-		<div class="grid-container">
-		<div class="item2">
-			<h4>Toast </h4>
-			<img src="https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="toast with spinach">
-			
-			<h4>Couscous salad</h4>
-			<img src="https://images.pexels.com/photos/248509/pexels-photo-248509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="couscous salad">
-			
-			
-			
+<!-- 1ST ROW DIV-->
+		<div class="w3-row">
+			<div class="w3-quarter w3-container" id="w3-red"> <!-- COLOR IS W3-RED TO HELP DIFFERENCIATE-->
+				<h4>Toast </h4>
+					<img src="https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width:100%; padding-bottom: 40px;" alt="toast with spinach">
+					
 			</div>
-		<div class="vl"></div>
-
-
-		<div class="item3">
-			<p><br></p>
-				<p style="padding-bottom: 20px;">
+			<div class="w3-quarter w3-container" id="w3-purple"> <!-- COLOR IS W3-PURPLE TO HELP DIFFERENCIATE-->
+				<p>
 					. toast many slices<br>
-					. hummus &amp; avocado mash<br>
-					. 1 squeeze of lemon juice<br>
-					. arugula or spinach<br>
-					. everything but bagel topping <br>
-					<a href="">*full instructions*</a>
-				</p><br>
-			
-				<p style="padding-top: 20px;">
-					. rinse and boil 4cps of couscous<br>
-					. add salt and seasoning to boil<br>
-					. drain &amp; strain when soft<br>
-					. fluff couscous with fork<br>
-					. set aside in big bowl<br>
-					. 3tbps of butter<br>
-					. sprinkle parsely leave<br>
-					. chopped tomatos + onions<br>
-					. 2 chillies in hot pan<br>
-					. add chickpea and saute<br>
-					. add sautee to couscous bowl<br>
-					. 1tbps lemon juice<br>
-					. drizzle olive oil<br>
-					. mix well &amp; enjoy<br>
+					. spread your choice of hummus &amp; avocado mash<br>
+					. 1 squeeze of lemon<br>
+					. sprinkle arugula or spinach (any greens are a go)<br>
+					. everything but bagel seasoning to finsih of <br>
 					<a href="">*full instructions*</a>
 				</p>
-			
-			
-			</div>
-
-			<div class="item1">
-				
-				<h4>Mealtime Tips</h4>
-				<p style="text-align: center;">
-					when it comes to meal time, all hands on deck with less distractions.</p>
-
-					<p>Place all phones in a bowl away from the dining room.</p>
-
-					<p>Clear all eating space to allow for room. The more space, the more transparent and honest we can all be.</p>
-
-					<p>ask for roses and thorns. give compliments for big &amp; little things.</p>
-
-					<p>It’s the little things and moments that count. Simply making everyone feel heard and full brings more togetherness during mealtime.
-					</p>
-				
-					<br>
-				<h3 style="float: none;"><a href=""> more family bonding tips</a></h3>
 				
 			</div>
+<!-- HALF OF THE 1ST ROW DIV -->
+			<div class="w3-half">
+				<div class="w3-row">
+					<div class="w3-col w3-container" id="w3-blue" style="width:15%"> <!-- COLOR IS W3-BLUE TO HELP DIFFRENCIATE-->
+						<div class="vl"></div>
+<!-- <p>15%</p>-->
+					</div>
+					
+					<div class="w3-rest w3-container " id="w3-green"> <!-- COLOR IS W3-GREEN TO HELP DIFFRENCIATE-->
+						<h4>Mealtime Tips</h4>
+						<p style="text-align: center;">
+							when it comes to meal time, all hands on deck with less distractions.</p>
 
+						<p>Place all phones in a bowl away from the dining room.</p>
+
+						<p>Clear all eating space to allow for room. The more space, the more transparent and honest we can all be.</p>
+
+						<p>ask for roses and thorns. give compliments for big &amp; little things.</p>
+
+						<p>It’s the little things and moments that count. Simply making everyone feel heard and full brings more togetherness during mealtime.
+						</p>
+					</div>
+				
+					
+				</div>
+			</div>
 		</div>
-	   
-<!--
-	   <div class="container">
-		   <div class="sidebar">
-			   <h4>Toast</h4>
-			   <img src="https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-			   
-			   <img src="https://images.pexels.com/photos/248509/pexels-photo-248509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-		   </div>
-		   	
-		<div class="vl"></div>
-		   
-		   <div class="article">
-			   <h4>Mealtime Tips</h4>
-		   </div>
-	   
-	   </div>
--->
-	   <footer>
+			
+			
+<!-- A DIV ROW TAG DID START HERE -->				
+<!--			more recipes-->
+<!-- 2ND ROW DIV-->
+		<div class="w3-row">
+			<div class="w3-quarter w3-container" id="w3-red"> <!-- COLOR IS W3-RED TO HELP DIFFRENCIATE-->
+				<h4>Couscous salad</h4>
+				<img src="https://images.pexels.com/photos/248509/pexels-photo-248509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width:100%; padding-bottom: 20px;" alt="couscous salad">
+			</div>
+			<div class="w3-quarter w3-container" id="w3-purple"> <!-- COLOR IS W3-PURPLE TO HELP DIFFRENCIATE-->		
+				<p>
+				. rinse and boil 4cps of couscous<br>
+				. add salt and seasoning to boil<br>
+				. drain &amp; strain when soft<br>
+				. fluff couscous with fork<br>
+				. set aside in big bowl<br>
+				. 3tbps of butter<br>
+				. sprinkle parsely leave<br>
+				. chopped tomatos + onions<br>
+				. 2 chillies in hot pan<br>
+				. add chickpea and saute<br>
+				. add sautee to couscous bowl<br>
+				. 1tbps lemon juice<br>
+				. drizzle olive oil<br>
+				. mix well &amp; enjoy<br>
+					<a href="">*full instructions*</a>
+				</p>
+			</div>
+
+			<div class="w3-col w3-container" id="w3-blue" style="width:7%"> <!-- COLOR IS W3-BLUE TO HELP DIFFRENCIATE-->
+				<div class="vl"></div>
+			</div>
+				
+			<div class="w3-rest w3-container" id="w3-green">
+				<!-- COLOR IS W3-GREEN TO HELP DIFFRENCIATE-->
+
+			<!-- LOREM ISPSIM-->
+				<br>
+				<P> In ultrices, felis at tempor blandit, turpis massa consequat justo, eu pellentesque arcu urna sit amet tellus. Donec ut semper tellus. Mauris ut ultricies leo. Aenean commodo elit a lectus congue viverra. Pellentesque dignissim lacus volutpat, hendrerit lorem a, convallis purus. Nulla maximus fringilla ante eget volutpat. Fusce vitae leo non leo efficitur efficitur. Cras et augue sed justo elementum mollis. Suspendisse non elit non enim dictum tincidunt.</P>
+
+				<br>
+				<h3 style="float: none;">
+					<a href=""> more family bonding tips</a>
+				</h3>
+			</div> 
+		</div>
+		
+		<footer>
 			<hr>
 			<h5>ⓒ Pedigree 2022 |  a  true entity of BNTUMA</h5>
-		</footer>
-	  
+	</footer>
+
 	</body>
 </html>
-	  
-	 
