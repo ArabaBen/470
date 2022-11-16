@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 
 body{
@@ -66,6 +67,7 @@ p{
 p a{
 	text-decoration: underline;
 }
+
 #heading{
 	margin-bottom: 30px;
 }
@@ -270,22 +272,32 @@ footer hr{
 
 .factors{
 	width: 100%;
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 23px;
 	height: 200px;
+	font-family: 'EB Garamond', serif;
+
+
 	
+}
+.factors h6{
+	font-size: 28px;
+
 }
 .pro{
 	float: left;
 	padding: 20px;
 	width: 50%;
 	text-align: center;
+
 }
 .con{
 	float: right;
 	padding: 20px;
 	width: 50%;
 	text-align: center;
+	padding-left: 100px;
+	
+
 }
 ul{
 	font-weight: normal;
@@ -296,6 +308,8 @@ ul{
 	height: 80px;
 	padding-top: 250px;
 	text-align: left;
+	margin-left: 5%;
+	margin-right: 10%;
 }
 .cap a{
 	color: darkgoldenrod;
@@ -314,3 +328,20 @@ ul{
 	float: right;
 	
 }
+.main2 p{
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: left;
+	
+}
+.main3 p{
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+ol{
+	font-family: 'EB Garamond', serif;
+
+}
+
+
